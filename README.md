@@ -5,7 +5,7 @@ This is the **AI Content Writer Frontend**, a React/Next.js application that ser
 ---
 
 ## 🌐 Live Demo  
-Check out the live application here: [AI Content Writer Frontend](https://vercel.com/mdmobaraks-projects)
+Check out the live application here: [AI Content Writer Frontend](https://ai-content-writer.vercel.app/)
 
 ## 🛠️ Features  
 - Fully responsive design for seamless use across devices.
