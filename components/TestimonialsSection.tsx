@@ -18,7 +18,7 @@ const testimonials: Testimonial[] = [
     author: {
       name: "Darrell Steward",
       handle: "@darrels",
-      image: "https://w7.pngwing.com/pngs/334/401/png-transparent-testimonial-avatar-business-plan-advertising-marketing-avatar-heroes-plan-business-thumbnail.png",
+      image: "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?ga=GA1.1.396478744.1737967391&semt=ais_hybrid",
     },
     content:
       "You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
@@ -27,7 +27,7 @@ const testimonials: Testimonial[] = [
     author: {
       name: "Leslie Alexander",
       handle: "@leslie",
-      image: "https://w7.pngwing.com/pngs/334/401/png-transparent-testimonial-avatar-business-plan-advertising-marketing-avatar-heroes-plan-business-thumbnail.png",
+      image: "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?ga=GA1.1.396478744.1737967391&semt=ais_hybrid",
     },
     content: "Simply the best. Better than all the rest. I'd recommend this product to beginners and advanced users.",
     hashtags: "#postcrafts",
@@ -36,7 +36,7 @@ const testimonials: Testimonial[] = [
     author: {
       name: "Jenny Wilson",
       handle: "@jennywilson",
-      image: "https://w7.pngwing.com/pngs/334/401/png-transparent-testimonial-avatar-business-plan-advertising-marketing-avatar-heroes-plan-business-thumbnail.png",
+      image: "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?ga=GA1.1.396478744.1737967391&semt=ais_hybrid",
     },
     content: "This is a top quality product. No need to think twice before making it live on web.",
   },
@@ -44,7 +44,7 @@ const testimonials: Testimonial[] = [
     author: {
       name: "Kristin Watson",
       handle: "@kristinwatson2",
-      image: "https://w7.pngwing.com/pngs/334/401/png-transparent-testimonial-avatar-business-plan-advertising-marketing-avatar-heroes-plan-business-thumbnail.png",
+      image: "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?ga=GA1.1.396478744.1737967391&semt=ais_hybrid",
     },
     content:
       "Finally, I've found a template that covers all bases for a bootstrapped startup. We were able to launch in days, not months.",
@@ -53,7 +53,7 @@ const testimonials: Testimonial[] = [
     author: {
       name: "Guy Hawkins",
       handle: "@guyhawkins",
-      image: "https://w7.pngwing.com/pngs/334/401/png-transparent-testimonial-avatar-business-plan-advertising-marketing-avatar-heroes-plan-business-thumbnail.png",
+      image: "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?ga=GA1.1.396478744.1737967391&semt=ais_hybrid",
     },
     content: "This is a top quality product. No need to think twice before making it live on web.",
   },
@@ -61,7 +61,7 @@ const testimonials: Testimonial[] = [
     author: {
       name: "Floyd Miles",
       handle: "@floydmiles",
-      image: "https://w7.pngwing.com/pngs/334/401/png-transparent-testimonial-avatar-business-plan-advertising-marketing-avatar-heroes-plan-business-thumbnail.png",
+      image: "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?ga=GA1.1.396478744.1737967391&semt=ais_hybrid",
     },
     content:
       "My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
@@ -70,7 +70,7 @@ const testimonials: Testimonial[] = [
     author: {
       name: "Floyd Miles",
       handle: "@floydmiles",
-      image: "https://w7.pngwing.com/pngs/334/401/png-transparent-testimonial-avatar-business-plan-advertising-marketing-avatar-heroes-plan-business-thumbnail.png",
+      image: "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?ga=GA1.1.396478744.1737967391&semt=ais_hybrid",
     },
     content:
       "My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
@@ -79,7 +79,7 @@ const testimonials: Testimonial[] = [
     author: {
       name: "Floyd Miles",
       handle: "@floydmiles",
-      image: "https://w7.pngwing.com/pngs/334/401/png-transparent-testimonial-avatar-business-plan-advertising-marketing-avatar-heroes-plan-business-thumbnail.png",
+      image: "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?ga=GA1.1.396478744.1737967391&semt=ais_hybrid",
     },
     content:
       "My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
@@ -99,7 +99,7 @@ export default function TestimonialsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center px-10 lg:px-0 gap-4">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white rounded-md p-4">
               <div className="flex items-start justify-between mb-3">

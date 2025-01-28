@@ -4,8 +4,8 @@ import Image1 from "../asset/image.png";
 const AIWritingTools: React.FC = () => {
   return (
     <section className="relative bg-black text-white min-h-screen flex items-center justify-center px-6 py-16 lg:px-24">
-       <div className="absolute bg-gradient-to-r from-black to-[#BB2BFF] top-24 lg:left-60 lg:w-60 lg:h-40 blur-3xl bg-opacity-80 "></div>
       
+       <div className="absolute bg-gradient-to-r from-black to-[#BB2BFF] top-24 lg:left-60 lg:w-60 lg:h-40 blur-3xl bg-opacity-80 "></div>
       <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Section: Image */}
         <div className="flex z-0 justify-center">

@@ -175,7 +175,8 @@ export default function PricingSection() {
           <p className="text-gray-400">Choose from our affordable 3 packages</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+       <div className="flex justify-center">
+       <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-8 gap-4 ">
           {pricingTiers.map((tier, index) => (
             <div
               key={index}
@@ -224,6 +225,7 @@ export default function PricingSection() {
             </div>
           ))}
         </div>
+       </div>
       </div>
     </section>
   );

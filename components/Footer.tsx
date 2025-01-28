@@ -54,7 +54,7 @@ export default function Footer() {
     <footer className="bg-black text-white ">
       {/* Top Banner */}
     <div className="flex justify-center">
-    <div className="bg-gradient-to-r w-10/12  rounded-lg from-blue-700 to-purple-800 p-6">
+    <div className="bg-gradient-to-r lg:w-10/12  rounded-lg from-blue-700 to-purple-800 p-6">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center">
           <h2 className="text-xl font-semibold mb-4 sm:mb-0">
             It will help you improve your writing
